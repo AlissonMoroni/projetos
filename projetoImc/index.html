@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="">
+        <h1>Calcule o seu Imc</h1>
+        <div class="row g-3">
+            <div class="col">
+                <label for="">Peso</label>
+                <input type="number" class="form-control" id="peso" placeholder="ex: 90.5" aria-label="Peso">
+            </div>
+            <div class="col">
+                <label for="">Altura</label>
+                <input type="number" class="form-control" id="altura" placeholder="ex: 1.85" aria-label="Altura">
+            </div>
+        </div>
+        <div class="d-grid gap-2">
+            <button onclick="verificarImc()" class="btn btn-primary" type="button">Calcular</button>            
+          </div>
+        </form> 
+        <table class="table table-striped">
+            <thead>
+             
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">IMC</th>
+                <td><Classificação>Classificação</td>
+                <td>Obesidade(Grau)</td>
+               
+                
+              </tr>
+              <tr>
+                <th scope="row"> <16 </th>
+                <td>Magreza  </td>
+                <td>III</td>                
+                
+              </tr>
+              <tr>
+                <th scope="row"> 16,0 a 16,9 </th>
+                <td>Magreza  </td>  
+                <td>II</td>              
+              </tr>
+              <tr>
+                <th scope="row"> 17,0 a 18,4</th>
+                <td>Magreza  </td> 
+                <td>I</td>               
+              </tr>
+              <tr>
+                <th scope="row"> 18,5 a 24,9</th>
+                <td>Adeguado(a)</td>
+                <td>0</td>                
+              </tr>
+              <tr>
+                <th scope="row"> 25,0 a 29,9</th>
+                <td>Pré-Obeso</td> 
+                <td>Cuidado</td>               
+              </tr>
+              <tr>
+                <th scope="row">30,0 a 34,9</th>
+                <td>Obesidade</td>
+                <td>I</td>              
+              </tr>
+              <tr>
+                <th scope="row"> 35,0 a 39,9</th>
+                <td>Obesidade</td>    
+                <td>II</td>            
+              </tr>  
+              <th scope="row"> 40> </th>
+                <td>Obesidade-Grave</td>    
+                <td>III</td>            
+              </tr>                  
+            </tbody>            
+          </table>
+         <h3></h3>
+        
+    
+    </main>
+    <script src="app.js" ></script>    
+</body>
+</html>

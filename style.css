@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.menu{
+    background-color: #435585;       
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 5px;  
+    
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+header  a:hover{
+   color: aqua;
+}
+
+.corpo{
+    padding-top: 10%;
+}
+.corpo li{
+    margin: 10px;
+   
+}
+.corpo a{
+    text-decoration: none;
+    
+}
+
+.rodaPe{
+    background-color: #818FB4;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+
+.rodaPe h1{
+    font-size: 20px;
+}

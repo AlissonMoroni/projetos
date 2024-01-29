@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:azure;
+  
+}
+form{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+form input{
+    margin: 10px 0px;
+    
+}
+table{
+    text-align: center;
+    background-color: rgb(237, 231, 224);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+}
+form label{
+    text-align: center;
+    
+    padding: 10px 0px 0px 80px;
+}
+h3{
+    padding: 50px 0px 20px 20px
+    
+}
+td{
+    font-weight: bold;
+}
