@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c2b4b4e3;
+    padding: 10px 20px;
+}
+
+.menu-logo {
+    height: 50px;
+}
+
+.menu-nav .menu-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-nav .menu-list li {
+    margin: 0 15px;
+}
+
+.menu-nav .menu-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-nav .menu-list li a:hover {
+    text-decoration:underline;
+}
+
+.letras h4{
+    color: black;
+}
+
+.conteudo{
+    padding: 80px 0 20px 0; 
+}
+
+#servicos{
+    margin: 8px;
+}
+
+.centralizar{
+    text-align:justify;
+    justify-content:space-around;
+}
+.formulario{
+    width: 360px;
+    margin: 0 auto;
+}
+input, textarea, button{
+    background-color: #4f06eb;
+    border: none;
+    border-radius: 60px;
+    color: rgb(240, 244, 247);
+    font-size: 18px;
+    outline: none;
+    padding: 15px;
+    width: 30%;
+  
+}
+.backform{
+    background: #f1f0dc;
+}

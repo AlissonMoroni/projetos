@@ -11,14 +11,14 @@ function verificarImc(){
     let somar = calcularPeso/(calcularAltura*calcularAltura);
     let numeroFormatado = parseFloat(somar.toFixed(2));
     if(somar < 18.4){
-        exibirMensagem('h3' , `Você está abaixo do seu Imc Ideal:  ${numeroFormatado}`)
+        exibirMensagem('h3' , `Você está abaixo do seu Imc Ideal: <br/>  ${numeroFormatado}`)
     }
     else{
         if(somar > 40){
-            exibirMensagem('h3' , `Cuidado Obesidade grave:  ${numeroFormatado}`)
+            exibirMensagem('h3' , `Cuidado Obesidade grave: <br/>  ${numeroFormatado}`)
         }else{
 
-            exibirMensagem('h3' , `Você está acima do seu Imc Ideal:  ${numeroFormatado}`)
+            exibirMensagem('h3' , `Você está acima do seu Imc Ideal: <br/>  ${numeroFormatado}`)
         }
     }
     
